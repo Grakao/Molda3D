@@ -1,0 +1,6 @@
+﻿services:
+  molda3d.web:
+    image: molda3d.web
+    build:
+      context: .
+      dockerfile: Molda3D.Web/Dockerfile

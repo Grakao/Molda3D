@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 380" width="1600" height="380">
+    <defs>
+        <linearGradient id="frame" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FF7A3D"/>
+            <stop offset="100%" stop-color="#FF3D77"/>
+        </linearGradient>
+        <linearGradient id="head" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#4A7BFF"/>
+            <stop offset="100%" stop-color="#3DDCFF"/>
+        </linearGradient>
+        <linearGradient id="bed" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#3DDCFF"/>
+            <stop offset="100%" stop-color="#4A7BFF"/>
+        </linearGradient>
+        <linearGradient id="mGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFD93D"/>
+            <stop offset="100%" stop-color="#FF9F1C"/>
+        </linearGradient>
+        <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FF7A3D"/>
+            <stop offset="100%" stop-color="#FF3D77"/>
+        </linearGradient>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFF5EB"/>
+            <stop offset="100%" stop-color="#FFF0F5"/>
+        </linearGradient>
+    </defs>
+    <!-- ===== FUNDO ===== -->
+    <rect width="1600" height="380" fill="url(#bg)"/>
+    <!-- Bolinhas decorativas -->
+    <g opacity="0.35">
+        <circle cx="1450" cy="60" r="9" fill="#FFD93D"/>
+        <circle cx="1520" cy="130" r="7" fill="#FF7A3D"/>
+        <circle cx="1380" cy="310" r="11" fill="#3DDCFF"/>
+        <circle cx="1480" cy="330" r="8" fill="#FF3D77"/>
+        <circle cx="520" cy="50" r="8" fill="#FF7A3D"/>
+        <circle cx="60" cy="330" r="10" fill="#4A7BFF"/>
+        <circle cx="480" cy="340" r="6" fill="#FFD93D"/>
+    </g>
+    <!-- ===== IMPRESSORA ===== -->
+    <g transform="translate(120, 40) scale(0.6)" stroke="#1E1E1E" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+        <ellipse cx="170" cy="470" rx="150" ry="16" fill="#000" opacity="0.12" stroke="none"/>
+        <rect x="10" y="430" width="40" height="30" rx="10" fill="url(#frame)"/>
+        <rect x="290" y="430" width="40" height="30" rx="10" fill="url(#frame)"/>
+        <rect x="10" y="90" width="40" height="350" rx="14" fill="url(#frame)"/>
+        <rect x="290" y="90" width="40" height="350" rx="14" fill="url(#frame)"/>
+        <g stroke="#1E1E1E" stroke-width="2.5" opacity="0.35">
+            <line x1="30" y1="120" x2="30" y2="420"/>
+            <line x1="310" y1="120" x2="310" y2="420"/>
+        </g>
+        <rect x="-10" y="60" width="360" height="36" rx="16" fill="url(#frame)"/>
+        <circle cx="12" cy="78" r="7" fill="#FFF5EB"/>
+        <circle cx="328" cy="78" r="7" fill="#FFF5EB"/>
+        <circle cx="12" cy="78" r="3" fill="#1E1E1E" stroke="none"/>
+        <circle cx="328" cy="78" r="3" fill="#1E1E1E" stroke="none"/>
+        <rect x="120" y="66" width="120" height="46" rx="14" fill="#FFF5EB"/>
+        <g transform="translate(148, 96)">
+            <rect x="0" y="0" width="64" height="60" rx="16" fill="url(#head)"/>
+            <g stroke="#1E1E1E" stroke-width="3" opacity="0.5">
+                <line x1="10" y1="14" x2="54" y2="14"/>
+                <line x1="10" y1="24" x2="54" y2="24"/>
+                <line x1="10" y1="34" x2="54" y2="34"/>
+            </g>
+            <path d="M 22 60 L 42 60 L 38 78 L 26 78 Z" fill="#FFD93D"/>
+            <path d="M 28 78 L 36 78 L 34 88 L 30 88 Z" fill="#1E1E1E"/>
+        </g>
+        <path d="M 180 184 Q 180 210 180 240" fill="none" stroke="#1E1E1E" stroke-width="6"/>
+        <path d="M 180 184 Q 180 210 180 240" fill="none" stroke="#FFD93D" stroke-width="3"/>
+        <g transform="translate(140, 240)">
+            <path d="M 5 130 L 15 100 L 65 100 L 75 130 Z" fill="url(#mGrad)" opacity="0.45"/>
+            <path d="M 8 100 L 20 70 L 60 70 L 72 100 Z" fill="url(#mGrad)" opacity="0.7"/>
+            <path d="M 12 70 L 25 40 L 55 40 L 68 70 Z" fill="url(#mGrad)" opacity="0.9"/>
+            <path d="M 16 40 L 28 10 L 52 10 L 64 40 Z" fill="url(#mGrad)"/>
+            <path d="M 28 10 L 52 10 L 48 0 L 32 0 Z" fill="#FFE97A"/>
+        </g>
+        <rect x="20" y="370" width="300" height="34" rx="14" fill="url(#bed)"/>
+        <g stroke="#1E1E1E" stroke-width="2" opacity="0.3">
+            <line x1="40" y1="380" x2="300" y2="380"/>
+            <line x1="40" y1="388" x2="300" y2="388"/>
+            <line x1="40" y1="396" x2="300" y2="396"/>
+        </g>
+        <rect x="120" y="404" width="100" height="26" rx="10" fill="#FFF5EB"/>
+        <g transform="translate(250, -40)">
+            <circle cx="55" cy="55" r="55" fill="#FFD93D"/>
+            <circle cx="55" cy="55" r="22" fill="#FFF5EB"/>
+            <circle cx="55" cy="55" r="10" fill="#1E1E1E"/>
+            <circle cx="55" cy="20" r="5" fill="#1E1E1E"/>
+            <circle cx="55" cy="90" r="5" fill="#1E1E1E"/>
+            <circle cx="20" cy="55" r="5" fill="#1E1E1E"/>
+            <circle cx="90" cy="55" r="5" fill="#1E1E1E"/>
+        </g>
+        <path d="M 300 30 Q 260 60 240 100 Q 220 130 200 110" fill="none" stroke="#1E1E1E" stroke-width="6"/>
+        <path d="M 300 30 Q 260 60 240 100 Q 220 130 200 110" fill="none" stroke="#FFD93D" stroke-width="3"/>
+        <circle cx="160" cy="78" r="6" fill="#1E1E1E"/>
+        <circle cx="200" cy="78" r="6" fill="#1E1E1E"/>
+    </g>
+    <!-- ===== TEXTO (descido para centralizar verticalmente) ===== -->
+    <g transform="translate(660, 225)">
+        <g transform="translate(0, -35)">
+            <text x="0" y="0" text-anchor="start" font-family="'Baloo 2', 'Fredoka', 'Comic Sans MS', system-ui, sans-serif" font-weight="800" font-size="150" fill="#1E1E1E" stroke="#1E1E1E" stroke-width="22" stroke-linejoin="round" paint-order="stroke">
+                    Molda3D
+                </text>
+            <text x="0" y="0" text-anchor="start" font-family="'Baloo 2', 'Fredoka', 'Comic Sans MS', system-ui, sans-serif" font-weight="800" font-size="150" fill="url(#textGrad)" stroke="#FFF" stroke-width="3" paint-order="stroke">
+                    Molda3D
+                </text>
+        </g>
+        <g transform="translate(8, 65)">
+            <text x="0" y="0" text-anchor="start" font-family="'Baloo 2', 'Fredoka', 'Comic Sans MS', system-ui, sans-serif" font-weight="600" font-size="50" fill="#1E1E1E" stroke="#1E1E1E" stroke-width="9" stroke-linejoin="round" paint-order="stroke">
+                    Ideias que ganham forma
+                </text>
+            <text x="0" y="0" text-anchor="start" font-family="'Baloo 2', 'Fredoka', 'Comic Sans MS', system-ui, sans-serif" font-weight="600" font-size="50" fill="#4A7BFF">
+                    Ideias que ganham forma
+                </text>
+        </g>
+    </g>
+</svg>
